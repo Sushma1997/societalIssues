@@ -1,0 +1,32 @@
+Page in connection with backend:
+	SIGN UP page for people
+	SINUP UP page for ORGANIZATION
+
+	Login page for users
+	Login for ORGANIZATION
+
+	Bank account details addition page
+	 (i.e for organizations to and thier bank account details)
+
+	 Add events page for organizations 
+
+	 People contribution page( where people can contribute for any of the organizations)
+
+	 People view event page.
+	 	(People can view the events added by organizations)
+
+
+
+
+
+
+SINUP PAGE and login page FOR 
+    ORGANIZATION - orgName , email, website,phoneNo,address , orgType
+    people - name , mobileNo, email
+
+people can make contribution PAGE
+	
+
+
+ORGANIZATION can add events
+	- eventName , eventAddress ,eventDate , eventTime,contact

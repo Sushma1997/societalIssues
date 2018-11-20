@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<title>Societal Issues</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.mySlides {display:none;}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+<body class="w3-light-grey">
+<div class="navbar">
+  <a href="index.html">Login</a>
+  <a href="#news">Contact Us</a>
+  <div class="dropdown">
+    <button class="dropbtn">types of issues 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="ChildLabour.html">Child Labour</a>
+      <a href="Terrorism.html">Terrorism</a>
+      <a href="CAW.html">Crime Against Women</a>
+    </div>
+  </div> 
+</div>
+
+
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>SOCIETAL ISSUES</b></h1>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img class="mySlides" src="images1/si2.jpg" style="width:100%">
+  <img class="mySlides" src="images1/si8.jpg" style="width:100%">
+  <img class="mySlides" src="images1/si7.jpg" style="width:100%">
+    <div class="w3-container">
+      <h3><b>what is societal issue?</b></h3>
+      
+    </div>
+
+    <div class="w3-container">
+      <p>A societal issue is a problem that influences a considerable number of individuals within a society. It is often the consequence of factors extending beyond an individual's control, and is the source of a conflicting opinion on the grounds of what is perceived as a morally just personal life or societal order.[clarification needed] Social issues are distinguished from economic issues; however, some issues (such as immigration) have both social and economic aspects. There are also issues that don't fall into either category, such as warfare.
+
+There can be disagreements about what social issues are worth solving, or which should take precedence. Different individuals and different societies have different perceptions.
+
+In Rights of Man and Common Sense, Thomas Paine addresses individual's duty to "allow the same rights to others as we allow ourselves". The failure to do so caused the birth of a social issue.
+
+There are a variety of methods people use to combat social issues. Some people vote for leaders in a democracy to advance their ideals. Outside the political process, people donate or share their time, money, energy, or other resources. This often takes the form of volunteering. Nonprofit organizations are often formed for the sole purpose of solving a social issue. Community organizing involves gathering people together for a common purpose.</p>
+      
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="images1/statistics.png" alt="Norway" style="width:100%">
+    
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="images1/burning.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      	<h4>ASEAN Youths Address Social Issues with Data Analytics at ASEAN Data Science Explorers Regionals 2018</h4>  
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      
+	  <img src="images1/helpinghand.png">
+	  <p>
+	  <button type="button">Contribute</button>
+	  </p>
+	  
+    </div>
+    
+  </div>
+  <hr> 
+ 
+  
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); 
+}
+</script>
+
+
+</body>
+</html>

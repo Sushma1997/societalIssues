@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Societal Issues</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/business-casual.min.css" rel="stylesheet">
+	<style>
+.dropbtn{
+background-color:#5C4033;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown{
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content{
+display: none;
+position: abolute;
+background-color: Dark Brown;
+min-width:160px;
+overflow: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a{
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown a:hover{background-color:#5C4033;}
+
+.show{display:block;}
+</style>
+
+  </head>
+
+  <body>
+
+    <h1 class="site-heading text-center text-white d-none d-lg-block">
+      <span class="site-heading-lower">Societal Issues</span>
+    </h1>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="org_sample.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About Us</a>
+            </li>
+            <li>
+             <!-- <a class="nav-link text-uppercase text-expanded" href="products.html">Societal Issues</a>-->
+			  <div class="dropdown">
+			  <button onclick="myFunction()"
+			  class="dropbtn">types of issues<i class="fa fa-caret-down"></i></button>
+					<div id="myDropdown" class="dropdown-content">
+						<a href="ChildLabour.html">Child Labour</a>
+						<a href="Terrorism.html">Terrorism</a>
+						<a href="CAW.html">Crime Against Women</a>
+					</div> 
+					</div>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="organisation.html">Organisations</a>
+            </li>
+			<li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="logIn.php">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+    <section class="page-section clearfix">
+      <div class="container">
+        <div class="intro">
+					<img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/si7.jpg" alt="">
+          <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+            <h2 class="section-heading mb-4">
+              <!--<span class="section-heading-upper">Fresh Coffee</span>-->
+              <span class="section-heading-lower">What is societal Issue?</span>
+			  
+            </h2>
+            <p class="mb-3">A societal issue is a problem that influences a considerable number of individuals within a society. It is often the consequence of factors extending beyond an individual's control, and is the source of a conflicting opinion on the grounds of what is perceived as a morally just personal life or societal order. Outside the political process, people donate or share their time, money, energy, or other resources. This often takes the form of volunteering. Nonprofit organizations are often formed for the sole purpose of solving a social issue. Community organizing involves gathering people together for a common purpose.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<br></br>
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-lower">Burning Issues</span>
+              </h2>
+              <p class="mb-0">Advertising
+Mumbai: Armed with roses, 35 kids fight against child labour, sensitise mill owners
+<br></br>
+ 35 children are part of an initiative to curb child labour, started by the Mumbai Police along with the Labour Commission and two NGOs. Launched on Children’s Day, the six-day campaign aims to convey a message among factory and hotel owners to stop employing children. The children will offer roses to these owners of commercial establishments to sensitise them.Dressed in a pink frock, a nine-year-old girl presented a pink rose to the owner of a mill, manufacturing leather bags in Dharavi, on Wednesday morning. “Bachho ko kaam pe mat rakho, uncle… Unko ko padhao or behtar banao (Don’t make children work, help them get education to improve their lives),” she said.</p>
+			  <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+			   
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-faded text-center py-5">
+      <div class="container">
+        <p class="m-0 small">Societal Issues 2018</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
